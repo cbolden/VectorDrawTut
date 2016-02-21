@@ -47,12 +47,13 @@
                 <Ellipse Fill="Blue" Height="100" Width="200" StrokeThickness="5" Stroke="Black" Margin="25, 0, 25, 25" />
 
                 <!-- Draws a triangle by specifying the vertices of a polygon -->
-                <Polygon Points="0,0 100,0 50,100" Margin="25, 0, 25, 25" Stroke="Purple" StrokeThickness="2">
-                    <Polygon.Fill>
-                        <SolidColorBrush Color="Green" Opacity="0.5" />
-                    </Polygon.Fill>
-                </Polygon>
-
+                <Button Height="155" Width="183" Padding="0,20,0,0" >
+                    <Polygon Points="0,0 100,0 50,100" Margin="25, 0, 25, 25" Stroke="Purple" StrokeThickness="2" IsTapEnabled="True" Height="107" Width="103">
+                        <Polygon.Fill>
+                            <SolidColorBrush Color="Green" Opacity="0.5" />
+                        </Polygon.Fill>
+                    </Polygon>
+                </Button>
                 <!-- Draws a hexagon by specifying the vertices of a polygon -->
                 <Polygon Points="0,50 0,120 50,170 120,170 170,120 170,50 120,0 50,0" Fill="Red" Margin="25, 0, 25, 25" />
             </StackPanel>
